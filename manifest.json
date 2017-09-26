@@ -3,10 +3,13 @@
 
   "name": "Texas First",
   "description": "In picker menus, Texas will load, in the place that only she deserves, at very top, #1",
-  "version": "1.0",
+  "version": "0.5",
+  "author": "Saleh Alghusson",
+  "offline_enabled": true,
+  "homepage_url": "http://www.github.com/qirh/TexasFirst",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icon-white.png",
     "default_popup": "popup.html",
     "default_title": "meh here!"
   },

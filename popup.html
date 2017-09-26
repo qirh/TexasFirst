@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
 <head>
+  <script src="jquery.js"></script>
+  <link href="bootstrap.css" rel="stylesheet">
+  <link href="bootstrap-switch.css" rel="stylesheet">
+  <script src="bootstrap-switch.js"></script>
   <title>Texas First HTML</title>
+  <script src="popup.js"></script>
   <style type="text/css">
   body {
     margin: 10px;
@@ -59,24 +64,12 @@
   }
   </style>
 
-  <!--
-  - JavaScript and HTML must be in separate files: see our Content Security
-  - Policy documentation[1] for details and explanation.
-  -
-  - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
--->
-<script src="popup.js"></script>
 </head>
 
 <body>
-  <h1>Background Color Changer</h1>
+  <h1>Texas First</h1>
   <div id="container">
-    <span>Toggle</span>
-    <!-- Rectangular switch -->
-    <label class="switch">
-      <input type="checkbox">
-      <span class="slider"></span>
-    </label>
+    <input type="checkbox" name="texasCheckName" id="texasCheckID" checked>
   </div>
 </body>
 </html>
