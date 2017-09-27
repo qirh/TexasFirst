@@ -1,6 +1,5 @@
 {
   "manifest_version": 2,
-
   "name": "Texas First",
   "description": "In picker menus, Texas will load, in the place that only she deserves, at very top, #1",
   "version": "0.5",
@@ -10,15 +9,15 @@
 
   "browser_action": {
     "default_icon": "icon-white.png",
-    "default_popup": "popup.html",
     "default_title": "meh here!"
   },
-  "permissions": [
-    "activeTab",
-    "http://*/"
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["TexasFirst.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
   ],
-  "background": {
-    "scripts": ["popup.js"],
-    "persistent": false
-  }
+  "offline_enabled": true
 }
