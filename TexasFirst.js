@@ -23,7 +23,7 @@ if(select_elems.length > 30) {
           //remove it
           var text_removed = option_array[j].text;
           select_elems[i].options[j].remove();
-
+          
           //create new option
           var option_elem = document.createElement("option"); //not sure if text and value should be the same
           option_elem.text = text_removed;
