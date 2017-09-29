@@ -19,7 +19,6 @@
       "all_frames": true
     }
   ],
-  "offline_enabled": true,
   "options_page": "options.html",
   "options_ui": {
     "chrome_style": true,
