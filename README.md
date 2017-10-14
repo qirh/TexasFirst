@@ -11,8 +11,8 @@ Texas First! Chrome extension
   * Project forked from here:
     https://developer.chrome.com/extensions/getstarted
 
-  * Armadillo icon (couldn't fins Texas map icon hehe) from here:
-    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  * Texas flag icon from here:
+    http://www.iconarchive.com/show/american-states-icons-by-custom-icon-design/Texas-Flag-icon.html
 
   * Inspiration came from here:
     https://github.com/vpicone/SorryTennesee
@@ -26,7 +26,23 @@ Texas First! Chrome extension
 
 ### Does not work properly
   * nada hopefully ^_^ But testing more testing
+
 ### Features to implement
-  * Add icon for extensions page
   * Add options page:
-    * icon color switcher
+    * Test button
+    * icon Link to github
+    * icon Link to website
+    * icon link to Email
+
+### Things needed to publish on chrome: (* Done -- ** Not yet): deets: https://developer.chrome.com/webstore/publish
+  ** Create your app’s zip file
+  ** Create a developer account
+  ** Upload your app
+  ** Pick a payments system
+  ** Get app constraints and finish your app’s code
+  ** Get the app ID
+  ** Get the OAuth token
+  ** Finish the app
+  ** Provide store content
+  ** Pay the developer signup fee
+  ** Publish your app
