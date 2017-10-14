@@ -3,17 +3,17 @@
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "name": "Texas First",
   "description": "In picker menus, Texas will load, in the place that only she deserves, at very top, #1",
-  "version": "0.8.1",
+  "version": "0.8.9",
   "author": "Saleh Alghusson",
   "offline_enabled": true,
   "homepage_url": "http://www.github.com/qirh/TexasFirst",
   "browser_action": {
-    "default_title": "meh here!"
+    "default_title": "¡Tejas!"
   },
   "icons": {
-  "16": "icon-16.png",
-  "48": "icon-48.png",
-  "128": "icon-128.png"
+  "16": "icons/icon-16.png",
+  "48": "icons/icon-48.png",
+  "128": "icons/icon-128.png"
   },
   "options_page": "options.html",
   "options_ui": {
@@ -26,7 +26,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["TexasFirst.js"],
+      "js": ["js/TexasFirst.js"],
       "run_at": "document_idle",
       "all_frames": true
     }

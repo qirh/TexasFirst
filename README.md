@@ -5,7 +5,7 @@ Texas First! Chrome extension
 * Contact: salehg@live.com
 
 ## Summary
-  In picker menus, Texas will load, in the place that only she deserves, at very top, #1
+  In picker menus, "Texas"/"TX" will load, in the place that only she deserves, at very top, #1
 
 ## Copyright info
   * Project forked from here:
@@ -25,14 +25,12 @@ Texas First! Chrome extension
 ## Author's notes
 
 ### Does not work properly
-  * nada hopefully ^_^ But testing more testing
+  * Everything seems to be working
 
 ### Features to implement
-  * Add options page:
-    * Test button
-    * icon Link to github
-    * icon Link to website
-    * icon link to Email
+  * Popup page
+  * Options page:
+    * Some text would be nice
 
 ### Things needed to publish on chrome: (* Done -- ** Not yet): deets: https://developer.chrome.com/webstore/publish
   ** Create your app’s zip file
