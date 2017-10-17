@@ -1,4 +1,4 @@
-# Texas First!
+# ¡Texas First!
 Texas First! Chrome extension
 [![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/harvard-ios/assignment-5-almto3/master/LICENSE.txt)
 * License: MIT License
@@ -6,6 +6,11 @@ Texas First! Chrome extension
 
 ## Summary
   In picker menus: "Texas" & "TX" will load, in the place that only she deserves, at very top, #1
+
+  Simple Chrome extension, loops over all the option tags in the html page and if it detects any mention of "TX" or "Texas" it will append it to the top of the options. Nice for proud Texas and those of us ehm who are applying for jobs and hate scrolling down so much.
+
+  Link to extension in the chrome store:
+    https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh
 
 ## Copyright info
   * Project forked from here:

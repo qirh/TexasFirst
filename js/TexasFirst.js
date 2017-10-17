@@ -41,12 +41,13 @@ function runScript(state) {
 
               //remove it
               var text_removed = option_array[j].text;
+              var value_removed = option_array[j].value;
               select_elems[i].options[j].remove();
 
               //create new option
-              var option_elem = document.createElement("option"); //not sure if text and value should be the same
+              var option_elem = document.createElement("option"); //not sure if text and value should be the same, THEY ARE NOT THANKS TO LOVE OF MYY LIFE FAISAL ALDLIJAN
               option_elem.text = text_removed;
-              option_elem.value = text_removed;
+              option_elem.value = value_removed;
 
               //add it to the top
               select_elems[i].insertBefore(option_elem, select_elems[i].options[0])
