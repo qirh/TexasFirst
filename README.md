@@ -1,7 +1,7 @@
 # ¡Texas First!
 Texas First! Chrome extension
-[![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/harvard-ios/assignment-5-almto3/master/LICENSE.txt)
-* License: MIT License
+[![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/qirh/TexasFirst/master/LICENSE)
+
 * Contact: salehg@live.com
 
 ## Summary
