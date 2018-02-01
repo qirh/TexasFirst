@@ -1,6 +1,6 @@
 # ¡Texas First!
 Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/qirh/TexasFirst/master/LICENSE) <a href="https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh">
-<img border="0" alt="Chrome Button" src="https://github.com/qirh/TexasFirst/blob/master/icons/Chrome-32.png?raw=true" width="24" height="24" target="_blank">
+<img border="0" alt="Chrome Button" src="https://github.com/qirh/TexasFirst/blob/master/icons/Chrome-32.png?raw=true" width="24" height="24" target="_blank" rel="noopener noreferrer">
 </a>
 
 
