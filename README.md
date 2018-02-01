@@ -1,5 +1,5 @@
 # ¡Texas First!
-Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/qirh/TexasFirst/master/LICENSE) [![Google Chrome](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/32px-Google_Chrome_icon_%28September_2014%29.svg.png)](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh)
+Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/qirh/TexasFirst/master/LICENSE) [![Google Chrome](https://github.com/qirh/TexasFirst/blob/master/icons/Chrome-32.png?raw=true)](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh)
 
 ## Summary
   In picker menus: **Texas** & **TX** will load, in the place that only she deserves, at very top, #1  Nice for proud Texans and those of us ehm who are applying for jobs and hate scrolling down so much.
