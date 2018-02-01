@@ -1,5 +1,3 @@
-console.log("1");
-
 getOption(runScript);
 
 function getOption(callback) {
@@ -20,7 +18,7 @@ function runScript(state) {
     var select_elems = document.getElementsByTagName("select");
 
     if(select_elems.length > 30) {
-      //do nothing if there are more than 30 selects, safeguard so it doesn't loop 4evah
+      //do nothing if there are more than 30 selects, safeguard so it doesn't loop infinitely
     }
     else {
       //loop over selects
@@ -30,7 +28,7 @@ function runScript(state) {
         var option_array = Array.from(select_elems[i].options);
 
         if(option_array.length > 300) {
-          //do nothing if there are more than 300 options, safeguard so it doesn't loop 4evah
+          //do nothing if there are more than 300 options, safeguard so it doesn't loop infinitely
         }
         else {
           //loop over options
@@ -45,7 +43,7 @@ function runScript(state) {
               select_elems[i].options[j].remove();
 
               //create new option
-              var option_elem = document.createElement("option"); //not sure if text and value should be the same, THEY ARE NOT THANKS TO LOVE OF MYY LIFE FAISAL ALDLIJAN
+              var option_elem = document.createElement("option"); //Thanks f9ooly <3 
               option_elem.text = text_removed;
               option_elem.value = value_removed;
 
