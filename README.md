@@ -17,15 +17,5 @@ Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/licen
   * Texas flag icon from [here](http://www.iconarchive.com/show/american-states-icons-by-custom-icon-design/Texas-Flag-icon.html)
   * Inspiration came from [here](https://github.com/vpicone/SorryTennesee)
 
-## Notes
 ### Things that do not work properly
-  * Once I tried the Bulma (yes/no) button offline and it did not work. Need to re-produce!!
-
-### Features to implement
-  * Popup page
-  * Options page:
-    * Some text would be nice
-
-### Before launching on the Chrome store
-  * Ask someone to peer review the code
-  * Have my test subjects (ehm) I mean friends try it on their computers.
+  * Once I tried the Bulma (yes/no) button offline and it did not work. Need to re-produce!! Besides that, all seems good.
