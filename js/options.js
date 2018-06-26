@@ -1,15 +1,12 @@
-console.log("2");
+
 
 $(document).ready(function() {
-  console.log("4");
   $('#texasCheckID').bootstrapSwitch();
   $('#texasCheckID').on('switchChange.bootstrapSwitch', function(event, state) {
-    console.log("Event Handler");
     saveOption(state);
   });
   getOption(loadOption);
 });
-console.log("3");
 
 function getOption(callback) {
   var defaultState = "true";
