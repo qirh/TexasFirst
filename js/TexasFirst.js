@@ -43,7 +43,7 @@ function runScript(state) {
               select_elems[i].options[j].remove();
 
               //create new option
-              var option_elem = document.createElement("option"); //Thanks f9ooly <3 
+              var option_elem = document.createElement("option"); //Thanks f9ooly <3
               option_elem.text = text_removed;
               option_elem.value = value_removed;
 
