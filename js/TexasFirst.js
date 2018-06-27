@@ -13,6 +13,7 @@ function getOption(callback) {
 }
 
 function runScript(state) {
+  console.log("runScript -- " + state);
 	if (state) {
     //get all selects in the page
     var select_elems = document.getElementsByTagName("select");
