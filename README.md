@@ -6,16 +6,19 @@ Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/licen
 
 
 ## Summary
-  In picker menus: **Texas** & **TX** will load, in the place that only she deserves, at very top, #1  Nice for proud Texans and those of us ehm who are applying for jobs and hate scrolling down so much. Find the extension in the [Chrome store](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh).
-
-## How it works
-  This is a pretty simple Chrome extension. Basically, it loops over all the option tags in the html page and if it detects any mention of "TX" or "Texas" it will first remove it from the list, then append it to the top. You can download it from the [chrome store](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh)
-  Uses [JQuery](https://jquery.com) to manipulate the DOM. And also uses [Bootstrap](https://getbootstrap.com), [Bootstrap-Switch](http://bootstrapswitch.com), [Bulma](http://bulma.io) and [Font Awesome](http://fontawesome.io) for the pop-up menu.
+  This is a simple Chrome extension that loops over all the option elements (dropdowns) in html pages and if it finds **TX** or **Texas**, it will append it to the top of the list.
+  
+  Find the extension in the [Chrome store](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh).
+  
+  
+## Notes
+  Please give it a try and let me know what you think, espically if you don't like it, I need feedback ha!
 
 ## Copyright info
   * Project forked from [here](https://developer.chrome.com/extensions/getstarted)
   * Texas flag icon from [here](http://www.iconarchive.com/show/american-states-icons-by-custom-icon-design/Texas-Flag-icon.html)
   * Inspiration came from [here](https://github.com/vpicone/SorryTennesee)
+  * Uses [JQuery](https://jquery.com) to manipulate the DOM.
+  * Also uses [Bootstrap](https://getbootstrap.com), [Bootstrap-Switch](http://bootstrapswitch.com), [Bulma](http://bulma.io) and [Font Awesome](http://fontawesome.io) for the pop-up html page.
 
-### Things that do not work properly
-  * Once I tried the Bulma (yes/no) button offline and it did not work. Need to re-produce!! Besides that, all seems good.
+
