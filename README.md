@@ -8,6 +8,13 @@ Texas First! Chrome extension [![MIT license](https://img.shields.io/badge/licen
 ## Summary
   This is a simple Chrome extension that loops over all the option elements (dropdowns) in html pages and if it finds **TX** or **Texas**, it will append it to the top of the list.
   
+  **How it works:** 
+  * **Page Load:** the extension will look in storage for whether the user has set the extension to run or not. The default state is yes. 
+  * **Popup/Options page:** 
+    * Both pages are the same. The popup page can be accessed by pressing on the Texas flag and the options menu can be accessed either by right clicking or from the extensions page. 
+    * When the user turns on or off the extension, it  will save that preference in storage and will query storage for the information everytime the page comes up.
+    * The main JavaScript file listens for the changes in storage and will on the page whenever the user turns on the extension.
+  
   Find the extension in the [Chrome store](https://chrome.google.com/webstore/detail/texas-first/cflpfjhdephkbknjgidjkcfhohbddlnh).
   
   
