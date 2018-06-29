@@ -1,6 +1,10 @@
-getOption(runScript);
+chrome.storage.onChanged.addListener(function(changes) {
+  getOptionFromStorage(tejas);
+});
 
-function getOption(callback) {
+getOptionFromStorage(tejas);
+
+function getOptionFromStorage(callback) {
   var defaultState = "true";
 	var state;
   chrome.storage.sync.get('isOn', function (obj) {
@@ -12,8 +16,7 @@ function getOption(callback) {
   });
 }
 
-function runScript(state) {
-  console.log("runScript -- " + state);
+function tejas(state) {
 	if (state) {
     //get all selects in the page
     var select_elems = document.getElementsByTagName("select");
