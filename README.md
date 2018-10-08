@@ -16,7 +16,7 @@
 
 
 ## Notes
-  Please give it a try and let me know what you think, espically if you don't like it, I need feedback ha!
+  Please give it a try and let me know what you think, especially if you don't like it, but I'm not you won't, well idk maybe you will, if you're a horrible person that doesn't enjoy nice things in life.
 
 ## Copyright info
   * Project forked from [here](https://developer.chrome.com/extensions/getstarted)
